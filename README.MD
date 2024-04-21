@@ -16,11 +16,11 @@ Let's see a happy scenario.
 
 1. Initially these are the account balances. 
 
-![](/Users/simrankhanna/Desktop/Screenshot 2024-04-21 at 10.50.15 AM.png)
+![](https://github.com/simrank0/TransactionalAtomicity/assets/56548348/b688b7a4-47d8-4f0c-b21f-e3405c75a1a0)
 
 2. After the transaction happens successfully:
-![Screenshot 2024-04-21 at 10.53.17 AM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fpv%2Fp5zx_6bx71l3dv3924n5rktm0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_ZatZWR%2FScreenshot%202024-04-21%20at%2010.53.17%E2%80%AFAM.png)
-![](/Users/simrankhanna/Desktop/Screenshot 2024-04-21 at 10.37.45 AM.png)
+![Screenshot 2024-04-21 at 10.53.17 AM.png](https://github.com/simrank0/TransactionalAtomicity/assets/56548348/e25811cf-f0f7-4fd1-94f3-51517d147601)
+![](https://github.com/simrank0/TransactionalAtomicity/assets/56548348/3d0b6854-b91e-4fe2-841b-f997c9d6f187)
 
 Now, when an error occur in between the transaction - Let's say account 4 does not exist anymore:
 1. Atomic transaction - Balance of account 3 remains same when the transaction fails due to account 4 not being present in DB.
